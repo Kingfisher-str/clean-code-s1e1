@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more-inf {
+.header .header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -21,17 +21,17 @@ body {
   .header { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-list-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.add-tasks__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-tasks__task-container {
   display: flex;
 }
 ul {
